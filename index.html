@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通过script实现发送请求</title>
+</head>
+
+<body>
+    <script>
+        function cb(data) {
+            // data = JSON.parse(data);
+            // console.log(typeof data);
+            console.log(data);
+        }
+    </script>
+    <script src="http://127.0.0.1:8888?page=1&size=6&cb=cb"></script>
+
+</body>
+
+</html>
